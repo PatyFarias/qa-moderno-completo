@@ -1,0 +1,20 @@
+# QA Moderno Completo
+> Projeto integrador do livro "A Biblioteca Definitiva do QA Moderno
+  em um Único Volume".
+> Evolui a cada capítulo até se tornar um portfólio completo de QA.
+## Sobre este projeto
+Este repositório documenta, na prática, a evolução de um profissional
+  de QA do nível
+Júnior ao Sênior, através da construção incremental de uma suíte de
+  qualidade completa
+para uma aplicação de referência.
+## Stack coberta- Automação E2E: Cypress e Playwright- Testes de API: Postman + Newman, Rest Assured- Banco de dados: SQL (queries de validação)- Performance: JMeter e k6- CI/CD: GitHub Actions, Jenkins- Containers: Docker- Documentação: Plano de Testes, Casos de Teste, Matriz de Risco,
+  Diagramas
+## Estrutura
+Ver `docs/estrutura-projeto.md` para o mapeamento completo de pastas.
+## Como este projeto evolui
+Cada capítulo do livro adiciona uma entrega específica a este
+  repositório,
+seguindo sempre o mesmo fluxo profissional: branch → implementação →
+  Pull Request →
+atualização de documentação → commit (Conventional Commits) → merge
