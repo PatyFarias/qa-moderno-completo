@@ -1,1 +1,1 @@
-# -qa-moderno-completo
+# qa-moderno-completo
