@@ -1,0 +1,10 @@
+flowchart LR
+    A[Refinamento] -->|QA questiona\ncritérios de aceite|
+        B[Planejamento]
+    B -->|QA define estratégia\nde testes da história|
+        C[Desenvolvimento]
+    C -->|QA escreve testes\nem paralelo ao Dev| D[Execução e
+        Automação]
+    D -->|QA valida e\nreporta defeitos| E[Revisão / Deploy]
+    E -->|QA traz métricas\nde qualidade| F[Retrospectiva]
+    F -.->|melhoria contínua| A

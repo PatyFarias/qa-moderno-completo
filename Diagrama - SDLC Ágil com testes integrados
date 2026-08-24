@@ -1,0 +1,13 @@
+flowchart TD
+    subgraph Sprint["Sprint (ciclo iterativo)"]
+        direction LR
+        R[Refinamento\ncom critérios de\naceite validados] -->
+            D[Desenvolvimento\n+ testes em paralelo]
+        D --> T[Testes de API/E2E\nexecutados continuamente]
+        T --> V[Validação e\naceite da história]
+    end
+    V --> CI[Pipeline CI/CD]
+    CI --> Prod[Produção]
+    Prod -.->|Shift-right:\nobservabilidade,\nfeature flags|
+        Monitor[Monitoramento contínuo]
+    Monitor -.->|feedback| R
