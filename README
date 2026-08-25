@@ -18,3 +18,9 @@ Cada capítulo do livro adiciona uma entrega específica a este
 seguindo sempre o mesmo fluxo profissional: branch → implementação →
   Pull Request →
 atualização de documentação → commit (Conventional Commits) → merge
+
+## branch feature/cap-01
+Entrega: Criar o repositório qa-moderno-completo/ com README.md institucional e a estrutura de pastas inicial (cypress/, playwright/, postman/, rest-assured/, sql/, jmeter/, github-actions/, jenkins/, docs/, diagramas/, templates/)
+
+## branch feature/cap-02
+Entrega: Documentar o SDLC adotado no projeto integrador em docs/sdlc.md, incluindo o diagrama Mermaid deste capítulo adaptado ao contexto do projeto, além de docs/definition-of-ready.md e docs/definition-of-done.md
